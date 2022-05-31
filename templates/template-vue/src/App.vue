@@ -1,14 +1,22 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
+import StacksConnectWallet from './components/StacksConnectWallet.vue';
+import StacksContractVote from './components/StacksContractVote.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Vue + Stacks.js 👋" />
+      <div class="flex-center">
+        <!-- StacksConnectWallet file: `./src/components/StacksConnectWallet.vue` -->
+        <StacksConnectWallet />
+
+        <!-- StacksContractVote file: `./src/components/StacksContractVote.vue` -->
+        <StacksContractVote />
+      </div>
     </div>
   </header>
 
@@ -28,13 +36,17 @@ import TheWelcome from './components/TheWelcome.vue'
   font-weight: normal;
 }
 
-header {
-  line-height: 1.5;
+.flex-center {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+header {
+  line-height: 1.5;
 }
 
 a,
@@ -72,10 +84,6 @@ a,
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 }
 </style>

@@ -12,6 +12,17 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
+    <template #heading>Stacks.js Documentation</template>
+
+    Visit the Stacks.js
+    <a class="Stacks" target="_blank" href="https://github.com/hirosystems/stacks.js">official repository</a>
+    and <a class="Stacks" href="https://stacks.js.org">library reference</a> for more information.
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
     <template #heading>Documentation</template>
 
     Vue’s
@@ -31,9 +42,8 @@ import SupportIcon from './icons/IconSupport.vue'
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>. If you need to test
     your components and web pages, check out
     <a href="https://www.cypress.io/" target="_blank">Cypress</a> and
-    <a href="https://docs.cypress.io/guides/component-testing/introduction" target="_blank"
-      >Cypress Component Testing</a
-    >.
+    <a href="https://docs.cypress.io/guides/component-testing/introduction" target="_blank">Cypress Component
+      Testing</a>.
 
     <br />
 
@@ -82,3 +92,9 @@ import SupportIcon from './icons/IconSupport.vue'
     <a target="_blank" href="https://vuejs.org/sponsor/">becoming a sponsor</a>.
   </WelcomeItem>
 </template>
+
+<style scoped>
+a.Stacks {
+  color: #bc93f9;
+}
+</style>
