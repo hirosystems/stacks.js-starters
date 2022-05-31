@@ -31,22 +31,22 @@ const {
 const cwd = process.cwd();
 
 const FRAMEWORKS = [
-  {
-    name: "vue",
-    color: green,
-    variants: [
-      {
-        name: "vue",
-        display: "JavaScript",
-        color: yellow,
-      },
-      {
-        name: "vue-ts",
-        display: "TypeScript",
-        color: blue,
-      },
-    ],
-  },
+  // {
+  //   name: "vue",
+  //   color: green,
+  //   variants: [
+  //     {
+  //       name: "vue",
+  //       display: "JavaScript",
+  //       color: yellow,
+  //     },
+  //     {
+  //       name: "vue-ts",
+  //       display: "TypeScript",
+  //       color: blue,
+  //     },
+  //   ],
+  // },
   {
     name: "react",
     color: cyan,
@@ -56,29 +56,29 @@ const FRAMEWORKS = [
         display: "JavaScript",
         color: yellow,
       },
-      {
-        name: "react-ts",
-        display: "TypeScript",
-        color: blue,
-      },
+      // {
+      //   name: "react-ts",
+      //   display: "TypeScript",
+      //   color: blue,
+      // },
     ],
   },
-  {
-    name: "svelte",
-    color: red,
-    variants: [
-      {
-        name: "svelte",
-        display: "JavaScript",
-        color: yellow,
-      },
-      {
-        name: "svelte-ts",
-        display: "TypeScript",
-        color: blue,
-      },
-    ],
-  },
+  // {
+  //   name: "svelte",
+  //   color: red,
+  //   variants: [
+  //     {
+  //       name: "svelte",
+  //       display: "JavaScript",
+  //       color: yellow,
+  //     },
+  //     {
+  //       name: "svelte-ts",
+  //       display: "TypeScript",
+  //       color: blue,
+  //     },
+  //   ],
+  // },
 ];
 
 const TEMPLATES = FRAMEWORKS.map(
@@ -192,7 +192,7 @@ async function init() {
   template = variant || framework || template;
   console.log(`\nScaffolding project in ${root}...`);
 
-  const templateDir = path.join(__dirname, `template-${template}`);
+  const templateDir = path.join(__dirname, `templates/template-${template}`);
 
   const write = (file, content) => {
     const targetPath = renameFiles[file]
@@ -226,11 +226,11 @@ async function init() {
   switch (pkgManager) {
     case "yarn":
       console.log("  yarn");
-      console.log("  yarn dev");
+      console.log("  yarn start");
       break;
     default:
       console.log(`  ${pkgManager} install`);
-      console.log(`  ${pkgManager} run dev`);
+      console.log(`  ${pkgManager} start`);
       break;
   }
   console.log();

@@ -1,6 +1,6 @@
 {
   "name": "create-stacks",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "coming soon",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "files": [
     "index.js",
-    "template-*"
+    "templates/"
   ],
   "engines": {
     "node": ">=12.0.0"
