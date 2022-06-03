@@ -153,21 +153,21 @@ async function init() {
             };
           }),
         },
-        {
-          type: (framework) =>
-            framework && framework.variants ? "select" : null,
-          name: "variant",
-          message: reset("Select a variant:"),
+        // {
+        //   type: (framework) =>
+        //     framework && framework.variants ? "select" : null,
+        //   name: "variant",
+        //   message: reset("Select a variant:"),
 
-          choices: (framework) =>
-            framework.variants.map((variant) => {
-              const variantColor = variant.color;
-              return {
-                title: variantColor(variant.name),
-                value: variant.name,
-              };
-            }),
-        },
+        //   choices: (framework) =>
+        //     framework.variants.map((variant) => {
+        //       const variantColor = variant.color;
+        //       return {
+        //         title: variantColor(variant.name),
+        //         value: variant.name,
+        //       };
+        //     }),
+        // },
       ],
       {
         onCancel: () => {
@@ -189,7 +189,7 @@ async function init() {
     fs.mkdirSync(root);
   }
 
-  template = variant || framework || template;
+  template = variant || framework?.name || framework || template;
   console.log(`\nScaffolding project in ${root}...`);
 
   const templateDir = path.join(__dirname, `templates/template-${template}`);
