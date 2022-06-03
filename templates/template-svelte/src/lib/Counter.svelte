@@ -1,8 +1,8 @@
 <script>
-  let count = 0
+  let count = 0;
   const increment = () => {
-    count += 1
-  }
+    count += 1;
+  };
 </script>
 
 <button on:click={increment}>
@@ -21,7 +21,6 @@
     outline: none;
     width: 200px;
     font-variant-numeric: tabular-nums;
-    cursor: pointer;
   }
 
   button:focus {
