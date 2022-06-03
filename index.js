@@ -31,22 +31,22 @@ const {
 const cwd = process.cwd();
 
 const FRAMEWORKS = [
-  // {
-  //   name: "vue",
-  //   color: green,
-  //   variants: [
-  //     {
-  //       name: "vue",
-  //       display: "JavaScript",
-  //       color: yellow,
-  //     },
-  //     {
-  //       name: "vue-ts",
-  //       display: "TypeScript",
-  //       color: blue,
-  //     },
-  //   ],
-  // },
+  {
+    name: "vue",
+    color: green,
+    variants: [
+      {
+        name: "vue",
+        display: "JavaScript",
+        color: yellow,
+      },
+      // {
+      //   name: "vue-ts",
+      //   display: "TypeScript",
+      //   color: blue,
+      // },
+    ],
+  },
   {
     name: "react",
     color: cyan,
@@ -63,22 +63,22 @@ const FRAMEWORKS = [
       // },
     ],
   },
-  // {
-  //   name: "svelte",
-  //   color: red,
-  //   variants: [
-  //     {
-  //       name: "svelte",
-  //       display: "JavaScript",
-  //       color: yellow,
-  //     },
-  //     {
-  //       name: "svelte-ts",
-  //       display: "TypeScript",
-  //       color: blue,
-  //     },
-  //   ],
-  // },
+  {
+    name: "svelte",
+    color: red,
+    variants: [
+      {
+        name: "svelte",
+        display: "JavaScript",
+        color: yellow,
+      },
+      // {
+      //   name: "svelte-ts",
+      //   display: "TypeScript",
+      //   color: blue,
+      // },
+    ],
+  },
 ];
 
 const TEMPLATES = FRAMEWORKS.map(

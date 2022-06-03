@@ -1,4 +1,4 @@
-# create-stacks [WIP] 🚧
+# create-stacks 🚧
 
 - <img src="./icons/react.png" width="16" alt="React icon"> [Live Stacks React Template](https://stacks-react.vercel.app)
 - <img src="./icons/svelte.png" width="16" alt="Svelte icon"> [Live Stacks Svelte Template](https://stacks-svelte.vercel.app)
