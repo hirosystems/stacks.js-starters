@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}

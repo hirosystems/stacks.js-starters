@@ -1,0 +1,6 @@
+
+<div *ngIf="userSession.isUserSignedIn()">
+  <h3>Vote via Smart Contract</h3>
+  <button (click)="vote('🍊')"> Vote for 🍊 </button>
+  <button (click)="vote('🍎')"> Vote for 🍎 </button>
+</div>
