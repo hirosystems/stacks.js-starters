@@ -32,22 +32,6 @@ const cwd = process.cwd();
 
 const FRAMEWORKS = [
   {
-    name: "vue",
-    color: green,
-    variants: [
-      {
-        name: "vue",
-        display: "JavaScript",
-        color: yellow,
-      },
-      // {
-      //   name: "vue-ts",
-      //   display: "TypeScript",
-      //   color: blue,
-      // },
-    ],
-  },
-  {
     name: "react",
     color: cyan,
     variants: [
@@ -77,6 +61,33 @@ const FRAMEWORKS = [
       //   display: "TypeScript",
       //   color: blue,
       // },
+    ],
+  },
+  {
+    name: "vue",
+    color: green,
+    variants: [
+      {
+        name: "vue",
+        display: "JavaScript",
+        color: yellow,
+      },
+      // {
+      //   name: "vue-ts",
+      //   display: "TypeScript",
+      //   color: blue,
+      // },
+    ],
+  },
+  {
+    name: "angular",
+    color: red,
+    variants: [
+      {
+        name: "angular",
+        display: "TypeScript",
+        color: red,
+      },
     ],
   },
 ];
@@ -212,7 +223,10 @@ async function init() {
 
   const pkg = require(path.join(templateDir, `package.json`));
 
-  pkg.name = packageName || targetDir;
+  if (template !== "angular") {
+    // don't rename angular projects, as the package name is used in build tooling
+    pkg.name = packageName || targetDir;
+  }
 
   write("package.json", JSON.stringify(pkg, null, 2));
 
