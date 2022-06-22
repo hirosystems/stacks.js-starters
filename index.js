@@ -48,6 +48,17 @@ const FRAMEWORKS = [
     ],
   },
   {
+    name: "nextjs",
+    color: cyan,
+    variants: [
+      {
+        name: "nextjs",
+        display: "JavaScript",
+        color: yellow,
+      },
+    ],
+  },
+  {
     name: "svelte",
     color: red,
     variants: [
