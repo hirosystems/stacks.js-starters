@@ -1,6 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import ConnectWallet from "../components/ConnectWallet";
+import ContractCallVote from "../components/ContractCallVote";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,14 +14,38 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Next.js + Stacks.js 👋</h1>
+
+        <div className={styles.components}>
+          {/* ConnectWallet file: `../components/ConnectWallet.js` */}
+          <ConnectWallet />
+          {/* ContractCallVote file: `../components/ContractCallVote.js` */}
+          <ContractCallVote />
+        </div>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
+
+        <h2>Stacks Resources</h2>
+
+        <div className={`${styles.grid} ${styles.alt}`}>
+          <a
+            href="https://github.com/hirosystems/stacks.js"
+            className={styles.card}
+          >
+            <h2>GitHub &rarr;</h2>
+            <p>Read up on example in the Stacks.js Repository.</p>
+          </a>
+
+          <a href="https://docs.hiro.so" className={styles.card}>
+            <h2>Hiro Docs &rarr;</h2>
+            <p>Visit the general Hiro Docs page for more information.</p>
+          </a>
+        </div>
+
+        <h2>Next.js Resources</h2>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -58,12 +84,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }

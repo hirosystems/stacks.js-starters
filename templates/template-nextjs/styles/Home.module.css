@@ -92,6 +92,13 @@
   border-color: #0070f3;
 }
 
+.alt .card:hover,
+.alt .card:focus,
+.alt .card:active {
+  color: #7f3ae7;
+  border-color: #7f3ae7;
+}
+
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
@@ -106,6 +113,15 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.components {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.components h3 {
+  margin-top: 2rem;
 }
 
 @media (max-width: 600px) {
