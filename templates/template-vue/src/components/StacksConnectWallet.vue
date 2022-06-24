@@ -1,9 +1,9 @@
 <script setup>
-import { showConnectStatic } from "@stacks/connect";
+import { showConnect } from "@stacks/connect";
 import { userSession } from '../stacksUserSession';
 
 function authenticate() {
-  showConnectStatic({
+  showConnect({
     appDetails: {
       name: "Stacks Vue Starter",
       icon: window.location.origin + "/logo277.png",

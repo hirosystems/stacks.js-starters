@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@stacks/common": "^4.2.1",
-    "@stacks/connect": "6.8.6"
+    "@stacks/connect": "5.0.6-alpha.a346466.0"
   }
 }
