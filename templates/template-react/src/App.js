@@ -29,6 +29,14 @@ function App() {
           Learn Stacks
         </a>
         <a
+            className="App-link"
+            href="https://docs.hiro.so/build-apps/overview"
+            rel="noopener noreferrer"
+            target="_blank"
+        >
+          Learn to Build on Stacks
+        </a>
+        <a
           className="App-link"
           href="https://reactjs.org"
           rel="noopener noreferrer"
