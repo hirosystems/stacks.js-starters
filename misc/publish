@@ -1,0 +1,12 @@
+#!/bin/sh
+# - requires `sed` in path
+
+# publish `create-stacks``
+npm publish
+
+# rename `create-stacks` to `create-stacks-app` and publish
+sed -i '' -e 's/\(.*\)\"name\": \"create-stacks\"\(.*\)/\1"name": "create-stacks-app"\2/g' package.json
+npm publish
+
+# undo rename
+sed -i '' -e 's/\(.*\)\"name\": \"create-stacks-app\"\(.*\)/\1"name": "create-stacks"\2/g' package.json
