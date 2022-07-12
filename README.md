@@ -1,10 +1,10 @@
 # create-stacks 🚀
 
-- <img src="./icons/react.png" width="16" alt="React icon"> [Live Stacks React Template](https://stacks-react.vercel.app)
-- <img src="./icons/nextjs.png" width="16" alt="Next.js icon"> [Live Stacks Next.js Template](https://stacks-nextjs.vercel.app)
-- <img src="./icons/svelte.png" width="16" alt="Svelte icon"> [Live Stacks Svelte Template](https://stacks-svelte.vercel.app)
-- <img src="./icons/vue.png" width="16" alt="Vue icon"> [Live Stacks Vue Template](https://stacks-vue.vercel.app)
-- <img src="./icons/angular.png" width="16" alt="Angular icon"> [Live Stacks Angular Template](https://stacks-angular.vercel.app)
+- <img src="./misc/icons/react.png" width="16" alt="React icon"> [Live Stacks React Template](https://stacks-react.vercel.app)
+- <img src="./misc/icons/nextjs.png" width="16" alt="Next.js icon"> [Live Stacks Next.js Template](https://stacks-nextjs.vercel.app)
+- <img src="./misc/icons/svelte.png" width="16" alt="Svelte icon"> [Live Stacks Svelte Template](https://stacks-svelte.vercel.app)
+- <img src="./misc/icons/vue.png" width="16" alt="Vue icon"> [Live Stacks Vue Template](https://stacks-vue.vercel.app)
+- <img src="./misc/icons/angular.png" width="16" alt="Angular icon"> [Live Stacks Angular Template](https://stacks-angular.vercel.app)
 
 ## Quick-Start a Stacks.js Project
 
