@@ -38,12 +38,12 @@ const FRAMEWORKS = [
       {
         name: "react",
         display: "JavaScript",
-        color: yellow,
+        color: cyan,
       },
       // {
       //   name: "react-ts",
       //   display: "TypeScript",
-      //   color: blue,
+      //   color: cyan,
       // },
     ],
   },
@@ -54,50 +54,50 @@ const FRAMEWORKS = [
       {
         name: "nextjs",
         display: "JavaScript",
-        color: yellow,
+        color: cyan,
       },
     ],
   },
   {
     name: "svelte",
-    color: red,
+    color: cyan,
     variants: [
       {
         name: "svelte",
         display: "JavaScript",
-        color: yellow,
+        color: cyan,
       },
       // {
       //   name: "svelte-ts",
       //   display: "TypeScript",
-      //   color: blue,
+      //   color: cyan,
       // },
     ],
   },
   {
     name: "vue",
-    color: green,
+    color: cyan,
     variants: [
       {
         name: "vue",
         display: "JavaScript",
-        color: yellow,
+        color: cyan,
       },
       // {
       //   name: "vue-ts",
       //   display: "TypeScript",
-      //   color: blue,
+      //   color: cyan,
       // },
     ],
   },
   {
     name: "angular",
-    color: red,
+    color: cyan,
     variants: [
       {
         name: "angular",
         display: "TypeScript",
-        color: red,
+        color: cyan,
       },
     ],
   },
