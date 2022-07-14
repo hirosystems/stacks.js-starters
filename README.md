@@ -8,7 +8,7 @@
 
 ## Quick-Start a Stacks.js Project
 
-The following command will spawn an interactive CLI, allowing you to select your favorite framework to use with Stacks.js and start building in an instant! ⚡️
+The following command creates an interactive CLI, allowing you to select your favorite framework to use with Stacks.js and start building in an instant! ⚡️
 
 ```
 npm create stacks
