@@ -8,7 +8,7 @@
 
 ## Quick-Start a Stacks.js Project
 
-The following command will spawn an interactive CLI, which allows you to select your favorite framework to use with Stacks.js and get started building in an instant! ⚡️
+The following command will spawn an interactive CLI, allowing you to select your favorite framework to use with Stacks.js and start building in an instant! ⚡️
 
 ```
 npm create stacks
@@ -19,15 +19,15 @@ npm create stacks
 
 ## Options
 
-Running the `npm create stacks` command launches in interactive mode by default.
+Run the `npm create stacks` command to launch interactive mode by default.
 Similar commands exist in other package managers.
 e.g., `yarn create stacks`
 
-The [`npm init`](https://docs.npmjs.com/cli/v8/commands/npm-init) and its alias `npm create` can be seen as an alias for `npm exec create-<...>`.
+The [`npm init`](https://docs.npmjs.com/cli/v8/commands/npm-init) and it's alias `npm create` can be seen as an alias for `npm exec create-<...>`.
 
 ### `--template`
 
-It's also possible to pass the selected framework as a parameter, if you prefer a non-interactive mode:
+It's also possible to pass the selected framework as a parameter if you prefer a non-interactive mode:
 
 ```
 npm create --template react
@@ -37,4 +37,4 @@ _...where `react` is the example selected framework and initializes from [`templ
 
 ## License & Attribution
 
-⚖️ [MIT Licensed](./LICENSE); relevant attribution and licenses of dependencies can be found in [ATTRIBUTION.md](./ATTRIBUTION.md)
+⚖️ [MIT Licensed](./LICENSE); You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
