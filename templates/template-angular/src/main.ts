@@ -6,7 +6,7 @@ import { environment } from './environments/environment';
 
 import { Buffer } from '@stacks/common';
 
-window.Buffer = window.Buffer || Buffer;
+(window as any).Buffer = (window as any).Buffer || Buffer;
 
 if (environment.production) {
   enableProdMode();
