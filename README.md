@@ -6,7 +6,9 @@
 - <img src="./misc/icons/vue.png" width="16" alt="Vue icon"> [Live Stacks Vue Starter Template](https://stacks-vue.vercel.app)
 - <img src="./misc/icons/angular.png" width="16" alt="Angular icon"> [Live Stacks Angular Starter Template](https://stacks-angular.vercel.app)
 
-## Quick-Start a Stacks.js Project
+## Quick-Start a Stacks.js project
+
+This project aims to help quickly bootstrap frontend applications with Stacks.js on top of the desired JS framework as the foundation.
 
 The following command creates an interactive CLI, allowing you to select your favorite framework to use with Stacks.js and start building in an instant! ⚡️
 
@@ -23,7 +25,7 @@ Run the `npm create stacks` command to launch interactive mode by default.
 Similar commands exist in other package managers.
 e.g., `yarn create stacks`
 
-The [`npm init`](https://docs.npmjs.com/cli/v8/commands/npm-init) and it's alias `npm create` can be seen as an alias for `npm exec create-<...>`.
+The [`npm init`](https://docs.npmjs.com/cli/v8/commands/npm-init) and its alias `npm create` can be seen as an alias for `npm exec create-<...>`.
 
 ### `--template`
 
