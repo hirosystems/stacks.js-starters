@@ -1,7 +1,7 @@
 # Attribution
 
 The templates are forked from the official templates/starters for the respective frameworks.
-Relevant licenses and attribution is listed below:
+Relevant licenses and attribution are listed below:
 
 - [create-react-app](https://github.com/facebook/create-react-app): **Copyright (c) 2013-present, Facebook, Inc.** Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 - [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app): **Copyright (c) 2022 Vercel, Inc.** Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
