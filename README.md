@@ -39,4 +39,5 @@ _...where `react` is the example selected framework and initializes from [`templ
 
 ## License & Attribution
 
-⚖️ [MIT Licensed](./LICENSE); You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
+⚖️ [Apache License 2.0](./LICENSE); You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
+
