@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/hirosystems/stacks.js-starters",
+      "permanent": false
+    },
+    {
+      "source": "/react",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react",
+      "permanent": false
+    }
+  ]
+}
