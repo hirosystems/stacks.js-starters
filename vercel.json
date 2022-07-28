@@ -2,12 +2,32 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://github.com/hirosystems/stacks.js-starters",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react",
       "permanent": false
     },
     {
       "source": "/react",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react",
+      "permanent": false
+    },
+    {
+      "source": "/angular",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-angular",
+      "permanent": false
+    },
+    {
+      "source": "/next(js)?",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-nextjs",
+      "permanent": false
+    },
+    {
+      "source": "/svelte",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-svelte",
+      "permanent": false
+    },
+    {
+      "source": "/vue",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-vue",
       "permanent": false
     }
   ]
