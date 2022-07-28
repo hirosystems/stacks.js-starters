@@ -39,6 +39,12 @@ npm create --template react
 
 _...where `react` is the example selected framework and initializes from [`templates/template-react`](./templates/template-react/). We can choose any available framework from the [`templates/`](./templates/) directory._
 
+## Community
+
+Similar templates and projects using Stacks.js:
+
+- [stacks-next-auth-example](https://github.com/pradel/stacks-next-auth-example) by @pradel: An example of Sign-In with Stacks (using Message Signing) and NextAuth.js
+
 ## License & Attribution
 
 ⚖️ [Apache License 2.0](./LICENSE); You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
