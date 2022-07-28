@@ -29,6 +29,11 @@
       "source": "/vue",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-vue",
       "permanent": false
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://github.com/hirosystems/stacks.js-starters",
+      "permanent": false
     }
   ]
 }
