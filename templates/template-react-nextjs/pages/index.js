@@ -36,7 +36,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>GitHub &rarr;</h2>
-            <p>Read up on example in the Stacks.js Repository.</p>
+            <p>Read up on example code in the Stacks.js Repository.</p>
           </a>
 
           <a href="https://docs.hiro.so" className={styles.card}>
