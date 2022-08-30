@@ -6,10 +6,6 @@ import reportWebVitals from "./reportWebVitals";
 import { Connect } from "@stacks/connect-react";
 import { userSession } from "./userSession";
 
-// polyfill buffer (>= react-scripts 5)
-import { Buffer } from "@stacks/common";
-global.Buffer = global.Buffer || Buffer;
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

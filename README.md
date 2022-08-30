@@ -8,7 +8,7 @@ This project aims to help quickly bootstrap frontend applications with Stacks.js
 - <img src="./misc/icons/vue.png" width="16" alt="Vue icon"> [Live Stacks Vue Starter Template](https://stacks-vue.vercel.app)
 - <img src="./misc/icons/angular.png" width="16" alt="Angular icon"> [Live Stacks Angular Starter Template](https://stacks-angular.vercel.app)
 
-## Quick-Start a Stacks.js project
+## Quick-Start a Stacks.js Project
 
 The following command creates an interactive CLI (Command Line Interface), allowing you to select your favorite framework to use with Stacks.js and start building in an instant! ⚡️
 
