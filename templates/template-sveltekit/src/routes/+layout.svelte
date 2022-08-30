@@ -2,9 +2,6 @@
   import Counter from "$lib/Counter.svelte";
   import Header from "$lib/header/Header.svelte";
   import "../app.css";
-
-  import { Buffer } from "@stacks/common";
-  if (typeof window !== "undefined") window.Buffer = window.Buffer || Buffer;
 </script>
 
 <Header />

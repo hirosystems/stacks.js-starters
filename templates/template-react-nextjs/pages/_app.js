@@ -1,11 +1,8 @@
 import "../styles/globals.css";
 
 import { Connect } from "@stacks/connect-react";
-import { Buffer } from "@stacks/common";
 
 import { userSession } from "../components/ConnectWallet";
-
-global.Buffer = Buffer;
 
 function MyApp({ Component, pageProps }) {
   let icon;
