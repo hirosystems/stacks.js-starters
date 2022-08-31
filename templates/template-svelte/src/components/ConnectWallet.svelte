@@ -1,9 +1,9 @@
 <script>
-  import { showConnectStatic } from "@stacks/connect";
+  import { showConnect } from "@stacks/connect";
   import { userSession } from "../stacksUserSession";
 
   export function authenticate() {
-    showConnectStatic({
+    showConnect({
       appDetails: {
         name: "Stacks Svelte Starter",
         icon: window.location.origin + "/svelte.png",

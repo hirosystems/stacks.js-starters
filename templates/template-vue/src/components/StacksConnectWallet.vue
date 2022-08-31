@@ -1,9 +1,9 @@
 <script setup>
-import { showConnectStatic } from "@stacks/connect";
+import { showConnect } from "@stacks/connect";
 import { userSession } from '../stacksUserSession';
 
 function authenticate() {
-  showConnectStatic({
+  showConnect({
     appDetails: {
       name: "Stacks Vue Starter",
       icon: window.location.origin + "/logo277.png",
@@ -26,8 +26,8 @@ function disconnect() {
     <button @click="disconnect">
       Disconnect Wallet
     </button>
-    <p>mainnet: {{ userSession.loadUserData().profile.stxAddress.mainnet }}</p>
-    <p>testnet: {{ userSession.loadUserData().profile.stxAddress.testnet }}</p>
+    <p>mainnet: {{  userSession.loadUserData().profile.stxAddress.mainnet  }}</p>
+    <p>testnet: {{  userSession.loadUserData().profile.stxAddress.testnet  }}</p>
   </div>
   <div v-else>
     <button @click="authenticate">
