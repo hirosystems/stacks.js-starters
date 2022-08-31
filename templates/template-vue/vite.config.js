@@ -11,13 +11,4 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          "connect-ui": ["@stacks/connect-ui/dist/components/connect-modal"],
-        },
-      },
-    },
-  },
 });
