@@ -7,15 +7,16 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
-    "@stacks/common": "^4.3.5",
-    "@stacks/connect": "^6.10.1",
-    "@stacks/network": "^4.3.5",
-    "@stacks/transactions": "^4.3.5",
+    "@stacks/common": "4.3.6-pr.961dda6.0",
+    "@stacks/connect": "5.0.6-alpha.3093878.0",
+    "@stacks/connect-ui": "5.0.6-alpha.3093878.0",
+    "@stacks/network": "4.3.6-pr.961dda6.0",
+    "@stacks/transactions": "4.3.6-pr.961dda6.0",
     "vue": "^3.2.33"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.1",
+    "@vitejs/plugin-vue": "^3.0.3",
     "regenerator-runtime": "^0.13.9",
-    "vite": "^2.9.5"
+    "vite": "^3.0.9"
   }
 }
