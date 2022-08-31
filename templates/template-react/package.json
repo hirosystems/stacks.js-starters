@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@stacks/common": "^4.3.5",
-    "@stacks/connect": "^6.10.0",
-    "@stacks/connect-react": "^19.0.0",
+    "@stacks/connect": "^6.10.1",
+    "@stacks/connect-react": "^19.0.1",
     "@stacks/network": "^4.3.5",
     "@stacks/transactions": "^4.3.5",
     "@testing-library/jest-dom": "^5.16.4",

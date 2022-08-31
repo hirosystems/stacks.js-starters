@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
     "@stacks/common": "^4.3.5",
-    "@stacks/connect": "^6.10.0",
+    "@stacks/connect": "^6.10.1",
     "@stacks/network": "^4.3.5",
     "@stacks/transactions": "^4.3.5",
     "core-js": "3.24.0",
