@@ -1,0 +1,28 @@
+{
+  "name": "template-sveltekit",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "vite dev --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@types/cookie": "^0.5.1",
+    "svelte": "^3.46.0",
+    "svelte-check": "^2.7.1",
+    "typescript": "^4.7.4",
+    "vite": "^3.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.0",
+    "@stacks/common": "^4.3.5",
+    "@stacks/connect": "^6.10.1",
+    "@stacks/network": "^4.3.5",
+    "@stacks/transactions": "^4.3.5"
+  }
+}
