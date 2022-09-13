@@ -34,10 +34,10 @@ The [`npm init`](https://docs.npmjs.com/cli/v8/commands/npm-init) and its alias 
 It's also possible to pass the selected framework as a parameter if you prefer a non-interactive mode:
 
 ```
-npm create --template react
+npm create --template svelte
 ```
 
-_...where `react` is the example selected framework and initializes from [`templates/template-react`](./templates/template-react/). We can choose any available framework from the [`templates/`](./templates/) directory._
+_...where `svelte` is the example selected framework and initializes from [`templates/template-svelte`](./templates/template-svelte/). We can choose any available framework from the [`templates/`](./templates/) directory._
 
 ## License & Attribution
 
