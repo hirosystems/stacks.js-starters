@@ -6,17 +6,12 @@
       "permanent": false
     },
     {
-      "source": "/react",
+      "source": "/react(-vite)?",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-vite",
       "permanent": false
     },
     {
-      "source": "/react-cra",
-      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-cra",
-      "permanent": false
-    },
-    {
-      "source": "/cra",
+      "source": "/(react-)?cra",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-cra",
       "permanent": false
     },
@@ -26,13 +21,18 @@
       "permanent": false
     },
     {
-      "source": "/next(js)?",
-      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-nextjs",
+      "source": "/(react-)?next(js)?",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-nextjs",
       "permanent": false
     },
     {
       "source": "/svelte",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-svelte",
+      "permanent": false
+    },
+    {
+      "source": "/sveltekit",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-sveltekit",
       "permanent": false
     },
     {
