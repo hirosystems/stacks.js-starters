@@ -2,12 +2,22 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react",
+      "destination": "https://docs.hiro.so/stacksjs-starters",
       "permanent": false
     },
     {
       "source": "/react",
-      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-vite",
+      "permanent": false
+    },
+    {
+      "source": "/react-cra",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-cra",
+      "permanent": false
+    },
+    {
+      "source": "/cra",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-cra",
       "permanent": false
     },
     {

@@ -1,0 +1,26 @@
+{
+  "name": "template-react-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stacks/common": "^4.3.5",
+    "@stacks/connect": "^6.10.1",
+    "@stacks/connect-react": "^19.0.1",
+    "@stacks/network": "^4.3.5",
+    "@stacks/transactions": "^4.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.0"
+  }
+}
