@@ -11,7 +11,12 @@
       "permanent": false
     },
     {
-      "source": "/(react\\-)?cra",
+      "source": "/cra",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-cra",
+      "permanent": false
+    },
+    {
+      "source": "/react-cra",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-cra",
       "permanent": false
     },
@@ -21,7 +26,12 @@
       "permanent": false
     },
     {
-      "source": "/(react\\-)?next(js)?",
+      "source": "/next(js)?",
+      "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-nextjs",
+      "permanent": false
+    },
+    {
+      "source": "/react-next(js)?",
       "destination": "https://githubbox.com/hirosystems/stacks.js-starters/tree/main/templates/template-react-nextjs",
       "permanent": false
     },
