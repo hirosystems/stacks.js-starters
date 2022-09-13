@@ -10,9 +10,9 @@ This project aims to help quickly bootstrap frontend applications with Stacks.js
 - <img src="./misc/icons/vue.png" width="16" alt="Vue icon"> [Live Stacks Vue Starter Template](https://stacks-vue.vercel.app)
 - <img src="./misc/icons/angular.png" width="16" alt="Angular icon"> [Live Stacks Angular Starter Template](https://stacks-angular.vercel.app)
 
-## Quick-Start a Stacks.js project
+## ⚡️ Quick-Start a Stacks.js project
 
-The following command creates an interactive CLI (Command Line Interface), allowing you to select your favorite framework to use with Stacks.js and start building in an instant! ⚡️
+The following command creates an interactive CLI (Command Line Interface), allowing you to select your favorite framework to use with Stacks.js and start building in an instant!
 
 ```
 npm create stacks
@@ -21,7 +21,13 @@ npm create stacks
 > **Prerequisites:**
 > Node.js (with `npm` >= v7.x.x)
 
-## Options
+## 🗺 Ecosystem
+
+Similar great templates and projects using Stacks.js:
+
+- [stacks-next-auth-example](https://github.com/pradel/stacks-next-auth-example) by @pradel: An example of Sign-In with Stacks (using Message Signing) and NextAuth.js
+
+## 🛠 CLI Options
 
 Run the `npm create stacks` command to launch interactive mode by default.
 Similar commands exist in other package managers.
@@ -39,12 +45,6 @@ npm create --template react
 
 _...where `react` is the example selected framework and initializes from [`templates/template-react`](./templates/template-react/). We can choose any available framework from the [`templates/`](./templates/) directory._
 
-## Community
+## ⚖️ License & Attribution
 
-Similar templates and projects using Stacks.js:
-
-- [stacks-next-auth-example](https://github.com/pradel/stacks-next-auth-example) by @pradel: An example of Sign-In with Stacks (using Message Signing) and NextAuth.js
-
-## License & Attribution
-
-⚖️ [Apache License 2.0](./LICENSE); You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
+[Apache License 2.0](./LICENSE) — You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
