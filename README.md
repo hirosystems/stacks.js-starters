@@ -2,9 +2,11 @@
 
 This project aims to help quickly bootstrap frontend applications with Stacks.js on top of the following JavaScript frameworks as the foundation.
 
-- <img src="./misc/icons/react.png" width="16" alt="React icon"> [Live Stacks React Starter Template](https://stacks-react.vercel.app)
-- <img src="./misc/icons/nextjs.png" width="16" alt="Next.js icon"> [Live Stacks Next.js Starter Template](https://stacks-nextjs.vercel.app)
+- <img src="./misc/icons/react.png" width="16" alt="React icon"> [Live Stacks React (Vite) Starter Template](https://stacks-react.vercel.app)
+- <img src="./misc/icons/react.png" width="16" alt="React icon"> [Live Stacks React (CRA) Starter Template](https://stacks-cra.vercel.app)
+- <img src="./misc/icons/nextjs.png" width="16" alt="Next.js icon"> [Live Stacks React (Next.js) Starter Template](https://stacks-nextjs.vercel.app)
 - <img src="./misc/icons/svelte.png" width="16" alt="Svelte icon"> [Live Stacks Svelte Starter Template](https://stacks-svelte.vercel.app)
+- <img src="./misc/icons/svelte.png" width="16" alt="Svelte icon"> [Live Stacks SvelteKit Starter Template](https://stacks-sveltekit.vercel.app)
 - <img src="./misc/icons/vue.png" width="16" alt="Vue icon"> [Live Stacks Vue Starter Template](https://stacks-vue.vercel.app)
 - <img src="./misc/icons/angular.png" width="16" alt="Angular icon"> [Live Stacks Angular Starter Template](https://stacks-angular.vercel.app)
 
@@ -40,4 +42,3 @@ _...where `react` is the example selected framework and initializes from [`templ
 ## License & Attribution
 
 ⚖️ [Apache License 2.0](./LICENSE); You can find relevant attribution and licenses of dependencies at [ATTRIBUTION.md](./ATTRIBUTION.md)
-

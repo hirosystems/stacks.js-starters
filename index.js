@@ -17,87 +17,56 @@ const fs = require("fs");
 const path = require("path");
 const argv = require("minimist")(process.argv.slice(2), { string: ["_"] });
 const prompts = require("prompts");
-const {
-  yellow,
-  green,
-  cyan,
-  blue,
-  magenta,
-  lightRed,
-  red,
-  reset,
-} = require("kolorist");
+const { cyan, red, reset } = require("kolorist");
 
 const cwd = process.cwd();
 
 const FRAMEWORKS = [
   {
-    name: "react",
-    color: cyan,
+    name: "React",
     variants: [
       {
-        name: "react",
-        display: "JavaScript",
-        color: cyan,
+        name: "react-vite",
+        display: "Vite",
       },
-      // {
-      //   name: "react-ts",
-      //   display: "TypeScript",
-      //   color: cyan,
-      // },
-    ],
-  },
-  {
-    name: "nextjs",
-    color: cyan,
-    variants: [
       {
-        name: "nextjs",
-        display: "JavaScript",
-        color: cyan,
+        name: "react-cra",
+        display: "CRA (create-react-app)",
+      },
+      {
+        name: "react-nextjs",
+        display: "Next.js",
       },
     ],
   },
   {
-    name: "svelte",
-    color: cyan,
+    name: "Svelte",
     variants: [
       {
         name: "svelte",
-        display: "JavaScript",
-        color: cyan,
+        display: "Svelte",
       },
-      // {
-      //   name: "svelte-ts",
-      //   display: "TypeScript",
-      //   color: cyan,
-      // },
+      {
+        name: "sveltekit",
+        display: "SvelteKit",
+      },
     ],
   },
   {
-    name: "vue",
-    color: cyan,
+    name: "Vue",
     variants: [
       {
         name: "vue",
-        display: "JavaScript",
-        color: cyan,
+        display: "Vite",
       },
-      // {
-      //   name: "vue-ts",
-      //   display: "TypeScript",
-      //   color: cyan,
-      // },
     ],
   },
   {
-    name: "angular",
-    color: cyan,
+    name: "Angular",
     variants: [
       {
         name: "angular",
         display: "TypeScript",
-        color: cyan,
       },
     ],
   },
@@ -168,28 +137,26 @@ async function init() {
               : reset("Select a framework:"),
           initial: 0,
           choices: FRAMEWORKS.map((framework) => {
-            const frameworkColor = framework.color;
             return {
-              title: frameworkColor(framework.name),
+              title: cyan(framework.name),
               value: framework,
             };
           }),
         },
-        // {
-        //   type: (framework) =>
-        //     framework && framework.variants ? "select" : null,
-        //   name: "variant",
-        //   message: reset("Select a variant:"),
+        {
+          type: (framework) =>
+            framework && framework.variants ? "select" : null,
+          name: "variant",
+          message: reset("Select a variant:"),
 
-        //   choices: (framework) =>
-        //     framework.variants.map((variant) => {
-        //       const variantColor = variant.color;
-        //       return {
-        //         title: variantColor(variant.name),
-        //         value: variant.name,
-        //       };
-        //     }),
-        // },
+          choices: (framework) =>
+            framework.variants.map((variant) => {
+              return {
+                title: cyan(variant.display),
+                value: variant.name,
+              };
+            }),
+        },
       ],
       {
         onCancel: () => {
