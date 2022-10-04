@@ -1,6 +1,6 @@
 {
   "name": "create-stacks",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "Quickly bootstrap frontend applications with Stacks.js",
   "main": "index.js",
   "scripts": {
