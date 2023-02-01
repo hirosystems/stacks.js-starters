@@ -15,7 +15,7 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
-    "@stacks/connect": "^7.1.0",
+    "@stacks/connect": "5.0.6-alpha.1b31169.0",
     "@stacks/network": "^6.1.0",
     "@stacks/transactions": "^6.1.0"
   }

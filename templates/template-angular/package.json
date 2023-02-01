@@ -19,7 +19,7 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
-    "@stacks/connect": "^7.1.0",
+    "@stacks/connect": "5.0.6-alpha.1b31169.0",
     "@stacks/network": "^6.1.0",
     "@stacks/transactions": "^6.1.0",
     "core-js": "3.24.0",
