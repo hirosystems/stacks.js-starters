@@ -10,7 +10,7 @@ const AppTransactions = ({ txs }) => {
         <p key={t.date}>
           <code>{txs.length - i}: </code>
           <a
-            href={`https://explorer.stacks.co/txid/0x${t.txId}?chain=testnet`}
+            href={`https://explorer.hiro.so/txid/0x${t.txId}?chain=testnet`}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -4,9 +4,9 @@ import { StacksTestnet } from "@stacks/network";
 import {
   AnchorMode,
   PostConditionMode,
-  stringUtf8CV
+  stringUtf8CV,
 } from "@stacks/transactions";
-import { userSession } from '../stacksUserSession';
+import { userSession } from "../stacksUserSession";
 
 function vote(pick) {
   openContractCall({
@@ -22,7 +22,7 @@ function vote(pick) {
       console.log("onFinish:", data);
       window
         .open(
-          `https://explorer.stacks.co/txid/${data.txId}?chain=testnet`,
+          `https://explorer.hiro.so/txid/${data.txId}?chain=testnet`,
           "_blank"
         )
         .focus();

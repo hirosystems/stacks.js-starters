@@ -22,7 +22,7 @@
         console.log("onFinish:", data);
         window
           .open(
-            `https://explorer.stacks.co/txid/${data.txId}?chain=testnet`,
+            `https://explorer.hiro.so/txid/${data.txId}?chain=testnet`,
             "_blank"
           )
           .focus();
