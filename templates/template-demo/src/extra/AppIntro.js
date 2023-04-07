@@ -31,7 +31,7 @@ const AppIntro = () => {
           are configured to use the <code>testnet</code>. You can get free
           testnet-STX tokens from the{" "}
           <a
-            href="https://explorer.stacks.co/sandbox/faucet?chain=testnet"
+            href="https://explorer.hiro.so/sandbox/faucet?chain=testnet"
             target="_blank"
             rel="noopener noreferrer"
           >
