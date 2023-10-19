@@ -1,0 +1,3 @@
+#!/bin/sh
+
+for dir in ./templates/*; do (cd "$dir" && echo "$dir" && npm install @stacks/connect@latest @stacks/connect-react@latest @stacks/connect-ui@latest); done
