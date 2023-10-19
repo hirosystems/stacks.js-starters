@@ -11,7 +11,7 @@ import { userSession } from "../user-session";
 const ContractCallVote = () => {
   const { doContractCall } = useConnect();
 
-  function vote(pick) {
+  function vote(pick: string) {
     doContractCall({
       network: new StacksTestnet(),
       anchorMode: AnchorMode.Any,
@@ -28,7 +28,7 @@ const ContractCallVote = () => {
             `https://explorer.hiro.so/txid/${data.txId}?chain=testnet`,
             "_blank"
           )
-          .focus();
+          ?.focus();
       },
       onCancel: () => {
         console.log("onCancel:", "Transaction was canceled");
