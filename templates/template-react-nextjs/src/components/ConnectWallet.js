@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import { AppConfig, showConnect, UserSession } from "@stacks/connect";
 
@@ -29,7 +31,7 @@ const ConnectWallet = () => {
 
   if (mounted && userSession.isUserSignedIn()) {
     return (
-      <div>
+      <div className="Container">
         <button className="Connect" onClick={disconnect}>
           Disconnect Wallet
         </button>

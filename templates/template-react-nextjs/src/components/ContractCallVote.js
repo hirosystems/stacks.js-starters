@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import { useConnect } from "@stacks/connect-react";
 import { StacksTestnet } from "@stacks/network";
@@ -44,7 +46,7 @@ const ContractCallVote = () => {
   }
 
   return (
-    <div>
+    <div className="Container">
       <h3>Vote via Smart Contract</h3>
       <button className="Vote" onClick={() => vote("🍊")}>
         Vote for 🍊
