@@ -13,7 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       authOptions={{
         appDetails: {
           name: "Stacks React Template",
-          // todo:
           icon: window.location.origin + "/logo.png",
         },
         redirectTo: "/",
