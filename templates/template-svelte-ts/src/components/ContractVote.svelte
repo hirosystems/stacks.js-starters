@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { openContractCall } from "@stacks/connect";
   import { StacksTestnet } from "@stacks/network";
   import {
@@ -8,7 +8,7 @@
   } from "@stacks/transactions";
   import { userSession } from "../stacksUserSession";
 
-  export function vote(pick) {
+  export function vote(pick: string) {
     openContractCall({
       network: new StacksTestnet(),
       anchorMode: AnchorMode.Any,
@@ -25,7 +25,7 @@
             `https://explorer.hiro.so/txid/${data.txId}?chain=testnet`,
             "_blank"
           )
-          .focus();
+          ?.focus();
       },
       onCancel: () => {
         console.log("onCancel:", "Transaction was canceled");

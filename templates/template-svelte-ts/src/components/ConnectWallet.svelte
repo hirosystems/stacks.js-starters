@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { showConnect } from "@stacks/connect";
   import { userSession } from "../stacksUserSession";
 
