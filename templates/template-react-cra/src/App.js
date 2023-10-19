@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+
 import ConnectWallet from "./components/ConnectWallet";
 import ContractCallVote from "./components/ContractCallVote";
 
@@ -29,18 +30,18 @@ function App() {
           Learn Stacks
         </a>
         <a
-            className="App-link"
-            href="https://docs.hiro.so/build-apps/overview"
-            rel="noopener noreferrer"
-            target="_blank"
+          className="App-link"
+          href="https://docs.hiro.so/build-apps/overview"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           Learn to Build on Stacks
         </a>
         <a
           className="App-link"
           href="https://reactjs.org"
-          rel="noopener noreferrer"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Learn React
         </a>

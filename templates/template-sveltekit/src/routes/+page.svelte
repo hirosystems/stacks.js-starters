@@ -1,64 +1,29 @@
 <script>
-  import ConnectWallet from "$lib/stacks/ConnectWallet.svelte";
-  import ContractVote from "$lib/stacks/ContractVote.svelte";
+  import ConnectWallet from "$lib/ConnectWallet.svelte";
+  import ContractVote from "$lib/ContractVote.svelte";
 </script>
 
-<svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
-</svelte:head>
+<h1>Svelte + Stacks.js 👋</h1>
 
-<section>
-  <h1>
-    <span class="welcome">
-      <picture>
-        <source srcset="svelte-welcome.webp" type="image/webp" />
-        <img src="svelte-welcome.png" alt="Welcome" />
-      </picture>
-    </span>
+<!-- ConnectWallet file: `./src/lib/ConnectWallet.svelte` -->
+<ConnectWallet />
 
-    SvelteKit + Stacks.js 👋
-  </h1>
+<!-- ContractVote file: `./src/lib/ContractVote.svelte` -->
+<ContractVote />
 
-  <h2>
-    try editing the Stacks.js code in <strong>src/lib/stacks/</strong> or the
-    SvelteKit page template at <strong>src/routes/+page.svelte</strong>
-  </h2>
+<p>
+  Visit the Stacks.js
+  <a
+    class="Stacks"
+    target="_blank"
+    href="https://github.com/hirosystems/stacks.js">official repository</a
+  >
+  and <a class="Stacks" href="https://stacks.js.org">library reference</a> for more
+  information.
+</p>
 
-  <!-- ConnectWallet file: `./src/lib/stacks/ConnectWallet.svelte` -->
-  <ConnectWallet />
+<hr />
 
-  <!-- ContractVote file: `./src/lib/stacks/ContractVote.svelte` -->
-  <ContractVote />
-</section>
-
-<style>
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    text-align: center;
-  }
-
-  h1 {
-    width: 100%;
-  }
-
-  .welcome {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding: 0 0 calc(100% * 495 / 2048) 0;
-  }
-
-  .welcome img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    display: block;
-  }
-</style>
+<p>
+  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
+</p>

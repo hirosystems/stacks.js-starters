@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@stacks/connect": "^7.1.1",
-    "@stacks/connect-react": "^21.0.1",
+    "@stacks/connect": "^7.4.0",
+    "@stacks/connect-react": "^22.2.0",
+    "@stacks/connect-ui": "^6.1.1",
     "@stacks/network": "^6.1.0",
     "@stacks/transactions": "^6.1.0",
     "@testing-library/jest-dom": "^5.16.5",

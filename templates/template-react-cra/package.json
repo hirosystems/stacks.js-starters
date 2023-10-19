@@ -1,24 +1,21 @@
 {
-  "name": "template-react",
+  "name": "template-react-cra",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@stacks/connect": "^7.1.1",
-    "@stacks/connect-react": "^21.0.1",
-    "@stacks/network": "^6.1.0",
-    "@stacks/transactions": "^6.1.0",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1"
-  },
-  "overrides": {
-    "nth-check": "2.0.1"
+    "@stacks/connect": "^7.4.0",
+    "@stacks/connect-react": "^22.2.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -31,11 +28,9 @@
   },
   "browserslist": {
     "production": [
-      "chrome >= 67",
-      "edge >= 79",
-      "firefox >= 68",
-      "opera >= 54",
-      "safari >= 14"
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
     "development": [
       "last 1 chrome version",

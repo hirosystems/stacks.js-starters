@@ -7,7 +7,6 @@ function authenticate() {
   showConnect({
     appDetails: {
       name: "Stacks Template",
-      // todo:
       icon: window.location.origin + "/logo.png",
     },
     redirectTo: "/",

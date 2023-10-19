@@ -46,12 +46,4 @@
   div {
     margin-top: 16px;
   }
-
-  button {
-    background-color: rgba(148, 48, 148, 0.2);
-    border: 2px solid rgb(148, 48, 148);
-    border-radius: 14px;
-    padding: 8px 12px;
-    margin: 4px;
-  }
 </style>

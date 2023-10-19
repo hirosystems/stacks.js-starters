@@ -1,89 +1,54 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 
-import StacksConnectWallet from './components/StacksConnectWallet.vue';
-import StacksContractVote from './components/StacksContractVote.vue';
+import StacksConnectWallet from "./components/StacksConnectWallet.vue";
+import StacksContractVote from "./components/StacksContractVote.vue";
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="Vue + Stacks.js 👋" />
-      <div class="flex-center">
-        <!-- StacksConnectWallet file: `./src/components/StacksConnectWallet.vue` -->
-        <StacksConnectWallet />
+  <div>
+    <a href="https://vitejs.dev" target="_blank">
+      <img src="/vite.svg" class="logo" alt="Vite logo" />
+    </a>
+    <a href="https://vuejs.org/" target="_blank">
+      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    </a>
+  </div>
 
-        <!-- StacksContractVote file: `./src/components/StacksContractVote.vue` -->
-        <StacksContractVote />
-      </div>
-    </div>
-  </header>
+  <div class="flex-center">
+    <!-- StacksConnectWallet file: `./src/components/StacksConnectWallet.vue` -->
+    <StacksConnectWallet />
 
-  <main>
-    <TheWelcome />
-  </main>
+    <!-- StacksContractVote file: `./src/components/StacksContractVote.vue` -->
+    <StacksContractVote />
+  </div>
+
+  <p>
+    Visit the Stacks.js
+    <a
+      class="Stacks"
+      target="_blank"
+      href="https://github.com/hirosystems/stacks.js"
+      >official repository</a
+    >
+    and <a class="Stacks" href="https://stacks.js.org">library reference</a> for
+    more information.
+  </p>
+
+  <HelloWorld />
 </template>
 
-<style>
-@import './assets/base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
-
-.flex-center {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
-
-header {
-  line-height: 1.5;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>

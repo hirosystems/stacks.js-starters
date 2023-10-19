@@ -5,7 +5,8 @@ import {
   PostConditionMode,
   stringUtf8CV,
 } from "@stacks/transactions";
-import { userSession } from "./ConnectWallet";
+
+import { userSession } from "../user-session";
 
 const ContractCallVote = () => {
   const { doContractCall } = useConnect();

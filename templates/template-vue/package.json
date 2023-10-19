@@ -1,20 +1,20 @@
 {
-  "name": "template-vue",
+  "name": "template-vue-new",
+  "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@stacks/connect": "^7.1.1",
-    "@stacks/network": "^6.1.0",
-    "@stacks/transactions": "^6.1.0",
-    "vue": "^3.2.33"
+    "@stacks/connect": "^7.4.0",
+    "@stacks/connect-react": "^22.2.0",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.3",
-    "regenerator-runtime": "^0.13.9",
-    "vite": "^3.0.9"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
   }
 }
