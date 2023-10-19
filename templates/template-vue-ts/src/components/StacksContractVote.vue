@@ -8,7 +8,7 @@ import {
 } from "@stacks/transactions";
 import { userSession } from "../stacksUserSession";
 
-function vote(pick) {
+function vote(pick: string) {
   openContractCall({
     network: new StacksTestnet(),
     anchorMode: AnchorMode.Any,
@@ -25,7 +25,7 @@ function vote(pick) {
           `https://explorer.hiro.so/txid/${data.txId}?chain=testnet`,
           "_blank"
         )
-        .focus();
+        ?.focus();
     },
     onCancel: () => {
       console.log("onCancel:", "Transaction was canceled");
