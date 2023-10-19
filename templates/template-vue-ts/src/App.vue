@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
 
 import StacksConnectWallet from "./components/StacksConnectWallet.vue";
