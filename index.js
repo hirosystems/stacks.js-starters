@@ -30,12 +30,24 @@ const FRAMEWORKS = [
         display: "Vite",
       },
       {
+        name: "react-vite-ts",
+        display: "Vite, TypeScript",
+      },
+      {
         name: "react-cra",
         display: "CRA (create-react-app)",
       },
       {
+        name: "react-cra-ts",
+        display: "CRA (create-react-app), TypeScript",
+      },
+      {
         name: "react-nextjs",
         display: "Next.js",
+      },
+      {
+        name: "react-nextjs-ts",
+        display: "Next.js, TypeScript",
       },
     ],
   },
@@ -47,8 +59,16 @@ const FRAMEWORKS = [
         display: "Svelte",
       },
       {
+        name: "svelte-ts",
+        display: "Svelte, TypeScript",
+      },
+      {
         name: "sveltekit",
         display: "SvelteKit",
+      },
+      {
+        name: "sveltekit-ts",
+        display: "SvelteKit, TypeScript",
       },
     ],
   },
@@ -58,6 +78,10 @@ const FRAMEWORKS = [
       {
         name: "vue",
         display: "Vite",
+      },
+      {
+        name: "vue-ts",
+        display: "Vite, TypeScript",
       },
     ],
   },
@@ -218,11 +242,11 @@ async function init() {
   switch (pkgManager) {
     case "yarn":
       console.log("  yarn");
-      console.log("  yarn start");
+      console.log("  yarn dev");
       break;
     default:
       console.log(`  ${pkgManager} install`);
-      console.log(`  ${pkgManager} start`);
+      console.log(`  ${pkgManager} run dev`);
       break;
   }
   console.log();
