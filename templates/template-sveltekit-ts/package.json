@@ -20,7 +20,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@stacks/connect": "^7.4.0",
-		"@stacks/connect-react": "^22.2.0"
+		"@stacks/connect": "7.7.1",
+		"@stacks/connect-react": "22.4.2",
+		"@stacks/connect-ui": "6.4.1"
 	}
 }
