@@ -17,7 +17,7 @@ const Units = () => {
   };
 
   return (
-    <div className="bg-white p-5 rounded-lg shadow">
+    <div className="bg-white p-5 rounded-lg">
       <h2 className="text-xl font-bold text-gray-800 mb-4">
         STX Unit Converter
       </h2>
@@ -29,7 +29,7 @@ const Units = () => {
           type="number"
           value={stx}
           onChange={handleStxChange}
-          className="col-span-2 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="col-span-2 appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
       <div className="grid grid-cols-3 gap-4">
@@ -40,7 +40,7 @@ const Units = () => {
           type="number"
           value={microStx}
           onChange={handleMicroStxChange}
-          className="col-span-2 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="col-span-2 appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
     </div>

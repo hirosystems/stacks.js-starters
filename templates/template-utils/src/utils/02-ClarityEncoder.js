@@ -45,7 +45,7 @@ const ClarityEncoder = () => {
   };
 
   return (
-    <div className="bg-white p-5 rounded-lg shadow relative">
+    <div className="bg-white p-5 rounded-lg relative">
       <h2 className="text-xl font-bold text-gray-800 mb-4">Clarity Encoder</h2>
       {error && (
         <div className="absolute right-0 top-0 mt-2 mr-2 w-2 h-2 bg-red-400 rounded-full" />
@@ -69,7 +69,7 @@ const ClarityEncoder = () => {
           type="text"
           value={hex}
           onChange={handleHexChange}
-          className="col-span-2 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="col-span-2 appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
     </div>
