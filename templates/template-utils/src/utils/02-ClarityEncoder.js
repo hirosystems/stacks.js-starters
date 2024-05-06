@@ -69,7 +69,7 @@ const ClarityEncoder = () => {
           type="text"
           value={hex}
           onChange={handleHexChange}
-          className="col-span-2 appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="font-mono col-span-2 appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
     </div>
