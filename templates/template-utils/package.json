@@ -1,0 +1,48 @@
+{
+  "name": "template-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@stacks/connect": "7.7.1",
+    "@stacks/connect-react": "22.4.2",
+    "@stacks/connect-ui": "6.4.1",
+    "@stacks/network": "^6.1.0",
+    "@stacks/transactions": "^6.14.1-pr.a4893189.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
