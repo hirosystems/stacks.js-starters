@@ -29,7 +29,7 @@ const ClarityEncoder = () => {
   };
 
   const handleClarityChange = (e) => {
-    setError(""); // Clear previous errors)
+    setError("");
     const clarity = e.target.value;
     setClarityValueString(clarity);
     if (!clarity) return;
@@ -37,10 +37,11 @@ const ClarityEncoder = () => {
   };
 
   const handleHexChange = (e) => {
-    setError(""); // Clear previous errors
-    const value = e.target.value;
-    setHex(value);
-    setClarityValueString(decodeHex(value));
+    setError("");
+    const hex = e.target.value;
+    setHex(hex);
+    if (!hex) return;
+    setClarityValueString(decodeHex(hex));
   };
 
   return (
@@ -50,21 +51,16 @@ const ClarityEncoder = () => {
         <div className="absolute right-0 top-0 mt-2 mr-2 w-2 h-2 bg-red-400 rounded-full" />
       )}
       <div className="grid grid-cols-3 gap-4 mb-4">
-        <label className="col-span-1 flex items-center text-gray-700 text-sm font-bold">
+        <label className="col-span-1 mt-2 flex items-start text-gray-700 text-sm font-bold">
           Clarity Value
         </label>
-        <input
-          type="text"
+        <textarea
           value={clarityValueString}
           onChange={handleClarityChange}
-          className="col-span-2 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="font-mono col-span-2 border rounded p-3 text-gray-700 leading-tight focus:outline-none resize-none"
+          rows="3"
         />
       </div>
-      {/* {error && (
-        <p className="text-red-500 text-xs italic" style={{ display: "block" }}>
-          {error}
-        </p>
-      )} */}
       <div className="grid grid-cols-3 gap-4">
         <label className="col-span-1 flex items-center text-gray-700 text-sm font-bold">
           Hex
